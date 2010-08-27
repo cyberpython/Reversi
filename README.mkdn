@@ -1,0 +1,37 @@
+Reversi - A Java implementation of the Reversi game with a Swing GUI.
+-----------------------------------------------------------------
+Copyright (C) Georgios Migdos <cyberpython AT gmail DOT com><br/>
+<br/>
+This software was developed as an assignment for the "Artificial Intelligence" course at the [Athens Univesity Of Economics And Business](http://www.cs.aueb.gr/english/index.shtml) (Spring 2010).<br/>
+<br/>
+Available under the [MIT License](http://www.opensource.org/licenses/mit-license.php)<br/>
+<br/>
+Todo
+----
+* Replace the vector instances with arraylist instances
+* Change the integer constant members to enumerations
+* Javadoc
+
+<br/>
+<br/>
+Implemented algorithms
+----------------------
+###Search algorithms :
+* Mini-Max
+* Alpha-Beta Pruning
+
+<br/>
+<br/>
+API
+---
+####ai.MiniMax
+
+_public void apply(Node n, int maxDepth, SearchAlgorithm algorithm, Evaluator eval);_
+
++ n : An instance of a class extending the abstract class ai.Node .
++ maxDepth: An integer defining the maximum depth of the search tree.
++ algorithm: The algorithm (ai.MiniMax.SearchAlgorithm) to be used when searching the tree of states.
++ eval: An instance of a class extending the abstract class ai.Evaluator. Evaluators return an integer value for the Node passed to their evaluate() method.
+
+<br/>
+<br/>
