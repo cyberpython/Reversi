@@ -1,6 +1,6 @@
 Reversi - A Java implementation of the Reversi game with a Swing GUI.
 -----------------------------------------------------------------
-Copyright (C) Georgios Migdos <cyberpython AT gmail DOT com><br/>
+Copyright (C) Georgios Migdos <cyberpython AT gmail DOT com>, Filia Dova<br/>
 <br/>
 This software was developed as an assignment for the "Artificial Intelligence" course at the [Athens Univesity Of Economics And Business](http://www.cs.aueb.gr/english/index.shtml) (Spring 2010).<br/>
 <br/>
