@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="" href="">
+    <information>
+        <title>Reversi</title>
+        <vendor>Georgios Migdos - Filia Dova</vendor>
+    </information>
+    <security>
+        <all-permissions/>
+    </security>
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.6+"
+              href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="Reversi.jar" main="true" />
+
+    </resources>
+    <applet-desc
+         name="Reversi Applet"
+         main-class="reversi.ui.ReversiApplet"
+         width="500"
+         height="400">
+    </applet-desc>
+    <update check="background"/>
+</jnlp>
