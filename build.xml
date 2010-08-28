@@ -71,4 +71,10 @@
     nbproject/build-impl.xml file. 
 
     -->
+    <target name="-post-jar">
+  	<copy todir="${dist.dir}/applet">
+    		<fileset dir="${src.dir}/reversi/application/applet"/>
+  	</copy>
+        <copy file="${dist.jar}" tofile="${dist.dir}/applet/ReversiUnsigned.jar" overwrite="true" />
+    </target>
 </project>
