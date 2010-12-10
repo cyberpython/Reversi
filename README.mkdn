@@ -6,6 +6,12 @@ This software was developed as an assignment for the "Artificial Intelligence" c
 <br/>
 Available under the [MIT License](http://www.opensource.org/licenses/mit-license.php)<br/>
 <br/>
+
+Screenshots
+-----------------------------------------------------------------
+<a href="screenshots/screenshot.png">![Screenshot1][screenshot1]</a>
+[screenshot1]: screenshots/screenshot_th.png  "Screenshot of BMach running."
+
 Todo
 ----
 * Replace the vector instances with arraylist instances
