@@ -9,8 +9,8 @@ Available under the [MIT License](http://www.opensource.org/licenses/mit-license
 
 Screenshots
 -----------------------------------------------------------------
-<a href="screenshots/screenshot.png">![Screenshot1][screenshot1]</a>
-[screenshot1]: screenshots/screenshot_th.png  "Screenshot of BMach running."
+<a href="Reversi/raw/master/screenshots/screenshot.png">![Screenshot1][screenshot1]</a>
+[screenshot1]: Reversi/raw/master/screenshots/screenshot_th.png  "Screenshot of BMach running."
 
 Todo
 ----
